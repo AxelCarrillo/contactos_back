@@ -10,7 +10,7 @@ conn = sqlite3.connect("sql/contactos.db")
 app = fastapi.FastAPI()
 
 origins = [
-    "https://contactos-backend-2f1e8da37e9f.herokuapp.com"
+    "https://contactos-front-bf7355dcee0a.herokuapp.com"
 ]
 
 app.add_middleware(
